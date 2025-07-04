@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        img {
+            width: 200px;
+        }
+        video {
+            width: 200px;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Picture Element with of 3 sources with responsiveness -->
+    <h1> Picture of Me</h1>
+    <picture>
+        <source media="(min-width: 200px)" srcset="assests/WhatsApp Image 2025-07-04 at 10.01.55 AM.jpeg" >
+        <source media="(max-width: 300px)" srcset="assests/WhatsApp Image 2025-07-04 at 10.06.28 AM.jpeg" >
+        <source media="(max-width: 200px)" srcset="assests/WhatsApp Image 2025-07-04 at 10.06.29 AM.jpeg" >
+        <img src="assests/WhatsApp Image 2025-07-04 at 9.58.56 AM.jpeg" alt="This is a picture of Samuel Armah" />
+    </picture>
+
+    <br />
+    
+    <!-- Audio Element -->
+    <h1>My Favorite Sound</h1>
+    <audio controls>
+        <source src="./assests/horse.ogv" type="audio/ogv">
+        <source src="assests/t-rex-roar.mp3" type="audio/mp3">
+
+    </audio>
+
+     <br/>
+    
+    <!-- Video Element -->
+    <h1>Me Visiting Bonsu Ecopark</h1>
+    <video controls>
+        <source src="./assests/WhatsApp Video 2025-07-04 at 10.01.40 AM.mp4" type="video/mp4"/>
+    </video>
+
+</body>
+</html>
